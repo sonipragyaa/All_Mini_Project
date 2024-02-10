@@ -1,0 +1,110 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #fff;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background-image: linear-gradient( to bottom ,#3d7eaa,#ffe47a);
+}
+.lead{
+    font-family:'Times New Roman', Times, serif;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    font-family: "Sofia", sans-serif;
+    animation: text 4s;
+    
+}
+.hero_title span{
+    font-size: 6rem;
+    color: crimson;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.hero_desc {
+    font-size: 2rem;
+    color: black;
+    
+    font-family: "Sofia", sans-serif;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+}
+.text-center span{
+    font-size: 3.5rem;
+    color: crimson;
+    font-family: cursive;
+}
+.text-center:hover{
+    text-decoration: underline;
+    transition: 2ms;
+}
+/*animation for text*/
+@keyframes text {
+    0% {
+        color: crimson;
+        margin-bottom: -20px;
+    }
+
+    30% {
+        color: rgba(206, 60, 60, 0.671);
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    75% {
+        letter-spacing: 2px;
+        margin-bottom: -10px;
+    }
+}
+/* spacing on all sections */
+ #about, #portfolio, #contact {
+    margin-top: 3rem;
+    padding-top: 1rem;
+} 
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.04);
+ box-shadow: 0 10px 20px rgba(237, 231, 231, 0.12), 0 4px 8px rgba(152, 118, 118, 0.06);
+ transition: 2s;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-linkedin:hover, .fa-google:hover,.fa-instagram:hover {
+    color: crimson;
+}
+.fab {
+    color: #fff;
+}
+/* footer styling */
+#footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+#footer p{
+    padding: 10px;
+}
